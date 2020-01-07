@@ -35,25 +35,52 @@ a:hover {
 }
 #searchbar {
 	position:absolute;
+	height:30px;
 	width:550px;
-	top: 50%;
+	top: 48%;
 	left: 29%;
 	margin:auto;
 }
-div {
+div > input {
 	position:absolute;
-	font: normal 16px arial;
+	color:#353940;
+	background-color:rgba(237, 237, 237, 0.7);
+	border-color:#ebebeb;
+	padding:10px 18px;
+	font: normal 14px arial;
+	border-radius:4px;
 }
 #submit {
-	padding:200px;
-	top:70%;
-	left:50%;
+	top:58%;
+	left:39%;
 }
-
 #lucky{
+	top:58%;
+	left:50%;
 }
 
 footer {
 	background-color: rgba(196, 199, 204, 0.3);
-	position: absolute;
+	position: fixed;
+	height:41px;
+	width:100%;
+	bottom:0;
+}
+footer > .footleft, .footright {
+	text-decoration:none;
+	color:#353940;
+	font: normal 13px arial;
+	padding: 14px 15px;
+}
+footer:hover{
+	text-decoration:underline;
+}
+.footleft {
+	float:left;
+}
+.footright {
+	float:right;
+}
+body {
+	margin:0;
 }
